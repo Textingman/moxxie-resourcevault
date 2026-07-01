@@ -17,15 +17,15 @@ export default function HomePage() {
               AI-Powered — 100% Independent
             </div>
             <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl" style={{ color: '#1F2937' }}>
-              Unlock Your Personal
-              <span className="block" style={{ color: '#7C3AED' }}>AI Resource Flow</span>
+              Resources for Families
+              <span className="block" style={{ color: '#7C3AED' }}>in Moments That Matter</span>
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-xl" style={{ color: '#6B7280' }}>
-              Access a curated flow of expert resources and personalized AI guidance — completely free and always unbiased.
+              When your family faces a critical moment, we help you find the right resources — quickly, compassionately, and without pressure.
             </p>
             <div className="mt-10 flex justify-center gap-4 flex-wrap">
               <Link href="/signup" className="px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#7C3AED' }}>
-                Try Resource Flow
+                Find Family Resources
               </Link>
               <Link href="/about" className="px-8 py-4 text-lg font-semibold rounded-lg transition-opacity hover:opacity-90 border-2" style={{ color: '#7C3AED', borderColor: '#7C3AED', backgroundColor: '#FFFFFF' }}>
                 How It Works
@@ -80,7 +80,7 @@ export default function HomePage() {
           <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Ready to Get Started?</h2>
           <p className="text-xl mb-10" style={{ color: '#6B7280' }}>Join thousands of people who trust Resource Flow for clear, unbiased guidance.</p>
           <Link href="/signup" className="px-10 py-5 text-white text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#7C3AED' }}>
-            Try Resource Flow
+            Find Family Resources
           </Link>
         </div>
       </section>
