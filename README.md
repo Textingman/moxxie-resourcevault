@@ -1,5 +1,5 @@
-# Resource Vault
+# Resource Flow
 
-AI-powered microsite for Resource Vault.
+AI-powered microsite for Resource Flow.
 
-Live at: https://www.resourcevaultai.com
+Live at: https://www.tryresourceflow.com
