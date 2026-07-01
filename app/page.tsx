@@ -18,14 +18,14 @@ export default function HomePage() {
             </div>
             <h1 className="text-5xl font-extrabold sm:text-6xl md:text-7xl" style={{ color: '#1F2937' }}>
               Unlock Your Personal
-              <span className="block" style={{ color: '#7C3AED' }}>AI Resource Vault</span>
+              <span className="block" style={{ color: '#7C3AED' }}>AI Resource Flow</span>
             </h1>
             <p className="mt-6 max-w-2xl mx-auto text-xl" style={{ color: '#6B7280' }}>
-              Access a curated vault of expert resources and personalized AI guidance — completely free and always unbiased.
+              Access a curated flow of expert resources and personalized AI guidance — completely free and always unbiased.
             </p>
             <div className="mt-10 flex justify-center gap-4 flex-wrap">
               <Link href="/signup" className="px-8 py-4 text-white text-lg font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#7C3AED' }}>
-                Open the Vault
+                Try Resource Flow
               </Link>
               <Link href="/about" className="px-8 py-4 text-lg font-semibold rounded-lg transition-opacity hover:opacity-90 border-2" style={{ color: '#7C3AED', borderColor: '#7C3AED', backgroundColor: '#FFFFFF' }}>
                 How It Works
@@ -78,9 +78,9 @@ export default function HomePage() {
       <section className="py-20" style={{ backgroundColor: '#F5F3FF' }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-6" style={{ color: '#1F2937' }}>Ready to Get Started?</h2>
-          <p className="text-xl mb-10" style={{ color: '#6B7280' }}>Join thousands of people who trust Resource Vault for clear, unbiased guidance.</p>
+          <p className="text-xl mb-10" style={{ color: '#6B7280' }}>Join thousands of people who trust Resource Flow for clear, unbiased guidance.</p>
           <Link href="/signup" className="px-10 py-5 text-white text-xl font-semibold rounded-lg shadow-lg transition-opacity hover:opacity-90" style={{ backgroundColor: '#7C3AED' }}>
-            Open the Vault
+            Try Resource Flow
           </Link>
         </div>
       </section>
