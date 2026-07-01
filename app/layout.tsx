@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Resource Flow - AI-Curated Resource Flow for Smarter Decisions",
-  description: "Resource Flow gives you access to a curated collection of AI-powered resources. Get instant, unbiased guidance — no salespeople, no pressure.",
+  title: "Resource Flow - Family Resource Consulting for Life's Most Important Moments",
+  description: "Resource Flow connects families to the resources they need most. Get trusted, compassionate guidance in moments that matter — no pressure.",
 };
 
 export default function RootLayout({
