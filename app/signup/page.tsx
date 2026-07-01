@@ -34,7 +34,7 @@ export default function SignupPage() {
       <section className="py-12" style={{ backgroundColor: '#F5F7FA' }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl font-extrabold mb-4" style={{ color: '#1F2937' }}>
-            Open Your AI Resource Vault — Free
+            Try Resource Flow — Free
           </h1>
           <p className="text-xl max-w-2xl mx-auto" style={{ color: '#6B7280' }}>
             Get personalized, curated resources and unbiased AI guidance — no sales calls, no pressure.
@@ -92,19 +92,19 @@ export default function SignupPage() {
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="accountNotifications" checked={accountNotifications} onChange={(e) => setAccountNotifications(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#7C3AED' }} />
                   <label htmlFor="accountNotifications" className="text-sm" style={{ color: '#6B7280' }}>
-                    By checking this box, I agree to receive Account Notification SMS messages from Resource Vault at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services. See our <a href="/privacy" style={{ color: '#7C3AED' }}>Privacy Policy</a> and <a href="/terms" style={{ color: '#7C3AED' }}>Terms of Service</a>.
+                    By checking this box, I agree to receive Account Notification SMS messages from Resource Flow at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services. See our <a href="/privacy" style={{ color: '#7C3AED' }}>Privacy Policy</a> and <a href="/terms" style={{ color: '#7C3AED' }}>Terms of Service</a>.
                   </label>
                 </div>
                 <div className="flex items-start gap-3">
                   <input type="checkbox" id="customerCare" checked={customerCare} onChange={(e) => setCustomerCare(e.target.checked)} className="mt-1 w-4 h-4 rounded" style={{ accentColor: '#7C3AED' }} />
                   <label htmlFor="customerCare" className="text-sm" style={{ color: '#6B7280' }}>
-                    By checking this box, I agree to receive Customer Care SMS messages from Resource Vault at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services. See our <a href="/privacy" style={{ color: '#7C3AED' }}>Privacy Policy</a> and <a href="/terms" style={{ color: '#7C3AED' }}>Terms of Service</a>.
+                    By checking this box, I agree to receive Customer Care SMS messages from Resource Flow at the phone number provided. I understand I may opt out at any time by replying STOP. Reply HELP for help. Message and data rates may apply. Message frequency varies. Opting in is optional and not required to submit this form. Consent is not required as a condition of purchasing any products or services. See our <a href="/privacy" style={{ color: '#7C3AED' }}>Privacy Policy</a> and <a href="/terms" style={{ color: '#7C3AED' }}>Terms of Service</a>.
                   </label>
                 </div>
               </div>
 
               <button type="submit" disabled={isSubmitting} className="w-full py-4 text-white text-lg font-semibold rounded-lg transition-opacity hover:opacity-90" style={{ backgroundColor: isSubmitting ? '#9CA3AF' : '#7C3AED' }}>
-                {isSubmitting ? 'Submitting...' : 'Open the Vault'}
+                {isSubmitting ? 'Submitting...' : 'Try Resource Flow'}
               </button>
             </form>
           )}
