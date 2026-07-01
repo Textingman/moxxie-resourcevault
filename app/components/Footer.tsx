@@ -47,7 +47,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <p style={{ color: '#DDD6FE' }}>support@tryresourceflow.com</p>
             <p className="mt-2" style={{ color: '#DDD6FE' }}>8 The Green, Ste A, Dover, DE 19901</p>
-            <p className="mt-2" style={{ color: '#DDD6FE' }}></p>
+            <p className="mt-2" style={{ color: '#DDD6FE' }}>(833) 571-9204</p>
           </div>
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #7C3AED', color: '#DDD6FE' }}>
