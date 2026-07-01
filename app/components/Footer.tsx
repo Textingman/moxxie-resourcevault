@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <h3 className="text-xl font-bold mb-4">Resource Flow</h3>
             <p style={{ color: '#DDD6FE' }}>
-              Unlock a vault of AI-curated resources tailored to you.
+              Connecting families to the resources they need in life's most important moments.
             </p>
             {/* Social Icons */}
             <div className="flex items-center gap-4 mt-4">
@@ -32,7 +32,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2">
               <li><Link href="/about" style={{ color: '#DDD6FE' }} className="hover:text-white">About</Link></li>
-              <li><Link href="/signup" style={{ color: '#DDD6FE' }} className="hover:text-white">Try Resource Flow</Link></li>
+              <li><Link href="/signup" style={{ color: '#DDD6FE' }} className="hover:text-white">Find Family Resources</Link></li>
             </ul>
           </div>
           <div>
