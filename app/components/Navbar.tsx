@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-32">
           <div className="flex items-center">
             <Link href="/" className="flex-shrink-0">
-              <span className="text-2xl font-bold" style={{ color: '#7C3AED' }}>Resource Vault</span>
+              <span className="text-2xl font-bold" style={{ color: '#7C3AED' }}>Resource Flow</span>
             </Link>
           </div>
           <div className="hidden md:block">
@@ -36,7 +36,7 @@ export default function Navbar() {
                 Terms
               </Link>
               <Link href="/signup" className="text-white px-4 py-2 rounded-md text-sm font-medium" style={{ backgroundColor: '#7C3AED' }}>
-                Open the Vault
+                Try Resource Flow
               </Link>
             </div>
           </div>
