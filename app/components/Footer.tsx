@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Resource Vault</h3>
+            <h3 className="text-xl font-bold mb-4">Resource Flow</h3>
             <p style={{ color: '#DDD6FE' }}>
               Unlock a vault of AI-curated resources tailored to you.
             </p>
@@ -32,7 +32,7 @@ export default function Footer() {
             <h4 className="font-semibold mb-4">Product</h4>
             <ul className="space-y-2">
               <li><Link href="/about" style={{ color: '#DDD6FE' }} className="hover:text-white">About</Link></li>
-              <li><Link href="/signup" style={{ color: '#DDD6FE' }} className="hover:text-white">Open the Vault</Link></li>
+              <li><Link href="/signup" style={{ color: '#DDD6FE' }} className="hover:text-white">Try Resource Flow</Link></li>
             </ul>
           </div>
           <div>
@@ -45,13 +45,13 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-semibold mb-4">Contact</h4>
-            <p style={{ color: '#DDD6FE' }}>support@resourcevaultai.com</p>
+            <p style={{ color: '#DDD6FE' }}>support@tryresourceflow.com</p>
             <p className="mt-2" style={{ color: '#DDD6FE' }}>8 The Green, Ste A, Dover, DE 19901</p>
             <p className="mt-2" style={{ color: '#DDD6FE' }}></p>
           </div>
         </div>
         <div className="mt-8 pt-8 text-center" style={{ borderTop: '1px solid #7C3AED', color: '#DDD6FE' }}>
-          <p>&copy; 2026 Resource Vault. All rights reserved.</p>
+          <p>&copy; 2026 Resource Flow. All rights reserved.</p>
         </div>
       </div>
     </footer>
